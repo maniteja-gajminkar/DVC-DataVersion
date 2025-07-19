@@ -1,3 +1,16 @@
 create git repo and clone it to local
 create mycode.py and add code t it(it will save a .csv file to a new "data" folder)
 do git add,commit,push
+instal dvc (pip install dvc)
+now we do dvc init(creates .dvcignore, .dvc) (exps will show after logign some exp,check once)
+mkdir s3(creates a new s3 directory)
+how do we do "dvc remote add -d myremote S3"(if we relaly have s3 bucket we will give s3 bucket url)
+(myremote can be any name,not myremote only)
+next "dvc add data/"(this will give errro as git already tracked)
+give in cmd prompt (git rm -r --cached data)
+then (git cmmit -m "stop tracking data")
+now u will see /data folder in .gitignore
+and in data.dvc every change is stored with id (check once for review)
+we can see md5 in cache adn data file and id file(basically every time data canges it keeps track)
+now give dvc add data/
+it will show

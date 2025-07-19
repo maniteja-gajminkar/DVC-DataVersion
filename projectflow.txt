@@ -1,0 +1,3 @@
+create git repo and clone it to local
+create mycode.py and add code t it(it will save a .csv file to a new "data" folder)
+do git add,commit,push

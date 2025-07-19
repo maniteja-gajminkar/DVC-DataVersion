@@ -13,4 +13,5 @@ now u will see /data folder in .gitignore
 and in data.dvc every change is stored with id (check once for review)
 we can see md5 in cache adn data file and id file(basically every time data canges it keeps track)
 now give dvc add data/
-it will show
+now we can add git add .gitignore data.dvc
+now dvc commit and then dvc push

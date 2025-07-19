@@ -19,3 +19,6 @@ now dvc commit and then dvc push
 do a git add-commit push to mark tgis stage as first version of data
 now make changes to mycode.py to append a enw row in data ,check changes via dvc status
 again dvc commit and dvc push
+create a new row and python mycode.py
+dv commit and pushgit add and commit and push
+we can see new data id md5 and data also in versioning

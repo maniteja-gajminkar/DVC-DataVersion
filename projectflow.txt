@@ -15,3 +15,7 @@ we can see md5 in cache adn data file and id file(basically every time data cang
 now give dvc add data/
 now we can add git add .gitignore data.dvc
 now dvc commit and then dvc push
+
+do a git add-commit push to mark tgis stage as first version of data
+now make changes to mycode.py to append a enw row in data ,check changes via dvc status
+again dvc commit and dvc push
